@@ -1,0 +1,61 @@
+Request method:	GET
+Request URI:	https://620e3da1585fbc3359db4edf.mockapi.io/api/v1/users?id=32
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=32
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token
+Content-Type: application/json
+Content-Length: 389
+Etag: "-1917395523"
+Vary: Accept-Encoding
+Date: Sat, 10 Sep 2022 12:15:48 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "createdAt": "2022-09-09T21:40:44.944Z",
+        "name": "name 32",
+        "username": "Rebekah_Kuvalis",
+        "knownIps": [
+            "177.253.23.82",
+            "33d5:945b:9901:5fc4:1d96:2b38:544e:ab46"
+        ],
+        "profile": {
+            "firstName": "Roslyn",
+            "lastName": "Simonis",
+            "orders": [
+                100,
+                200,
+                300
+            ]
+        },
+        "id": "32",
+        "userDetails": [
+            {
+                "name": "Semsem",
+                "username": "asmaa@test.com",
+                "profile": {
+                    "firstName": "Asmaas",
+                    "lastName": "Samir",
+                    "orders": [
+                        "order1",
+                        "order2"
+                    ]
+                }
+            }
+        ]
+    }
+]
