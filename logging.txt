@@ -1,8 +1,8 @@
 Request method:	GET
-Request URI:	https://620e3da1585fbc3359db4edf.mockapi.io/api/v1/users?id=32
+Request URI:	https://620e3da1585fbc3359db4edf.mockapi.io/api/v1/users?id=37
 Proxy:			<none>
 Request params:	<none>
-Query params:	id=32
+Query params:	id=37
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -18,31 +18,31 @@ Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
 Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token
 Content-Type: application/json
-Content-Length: 389
-Etag: "-1917395523"
+Content-Length: 385
+Etag: "-1487898738"
 Vary: Accept-Encoding
-Date: Sat, 10 Sep 2022 12:15:48 GMT
+Date: Sun, 11 Sep 2022 13:27:35 GMT
 Via: 1.1 vegur
 
 [
     {
-        "createdAt": "2022-09-09T21:40:44.944Z",
-        "name": "name 32",
-        "username": "Rebekah_Kuvalis",
+        "createdAt": "2022-09-11T02:28:17.187Z",
+        "name": "name 37",
+        "username": "Lavonne.Walsh",
         "knownIps": [
-            "177.253.23.82",
-            "33d5:945b:9901:5fc4:1d96:2b38:544e:ab46"
+            "121.44.143.174",
+            "971d:38c4:e105:4fe0:695e:4d10:e5f3:316a"
         ],
         "profile": {
-            "firstName": "Roslyn",
-            "lastName": "Simonis",
+            "firstName": "Amira",
+            "lastName": "Hayes",
             "orders": [
                 100,
                 200,
                 300
             ]
         },
-        "id": "32",
+        "id": "37",
         "userDetails": [
             {
                 "name": "Semsem",

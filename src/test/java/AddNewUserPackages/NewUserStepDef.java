@@ -5,6 +5,7 @@ import Pojo_Classes.Profile;
 import Resources.APIResources;
 import Resources.BuildData;
 import Resources.Utils;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -51,15 +52,13 @@ public class NewUserStepDef extends Utils {
         System.out.println("ID-->"+id);
     }
 
-    @Then("verify {string} created maps to {string} using {string} with id")
+    @And("verify {string} created maps to {string} using {string} with id")
     public void verify_created_maps_to_using_with_id(String firstnameFromResponse, String nameInRequest, String resource) throws IOException {
-        Profile p=new Profile();
         nameInRequest=data.getUserFirstname();
-        System.out.println("name from requesttt-->"+nameInRequest);
         RequestSpec=given().spec(RequestSpecification()).queryParam("id",id);
         call_with_http_request(resource,"GET");
         firstnameFromResponse=getJsonPath(response,"userDetails.profile.firstName").toString();
-        System.out.println("name from response-->"+firstnameFromResponse);
+        firstnameFromResponse=firstnameFromResponse.replaceAll(("[^a-zA-Z0-9]"),"");
         Assert.assertEquals(firstnameFromResponse,nameInRequest);
     }
 }
